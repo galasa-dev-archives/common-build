@@ -32,7 +32,7 @@ pipeline {
          steps {
             withFolderProperties { 
                dir('resources') {
-                  sh "mvn --settings ${workspace}/settings.xml -Dmaven.repo.local=${workspace}/repository -Dgpg.skip=true -P ${MAVEN_PROFILE} -B -e process-sources"
+                  sh "mvn --settings ${workspace}/settings.xml -Dmaven.repo.local=${workspace}/repository -Dgpg.skip=true -P ${MAVEN_PROFILE} -B -e clean process-sources"
                   
  			      sh "docker build -t ${env.DOCKER_REPO}/galasa-allresources:${env.DOCKER_VERSION} ." 
 			      sh "docker push ${env.DOCKER_REPO}/galasa-allresources:${env.DOCKER_VERSION}"                  

@@ -35,7 +35,7 @@
 							<version>0.7.0-SNAPSHOT</version>
 							<type>zip</type>
 							<overWrite>true</overWrite>
-							<destFileName>p2-0.7.0.zip</destFileName>
+							<destFileName>p2-0.7.0-SNAPSHOT.zip</destFileName>
 						</artifactItem>
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
@@ -43,7 +43,7 @@
 							<version>0.7.0-SNAPSHOT</version>
 							<type>hpi</type>
 							<overWrite>true</overWrite>
-							<destFileName>jenkins-0.7.0.hpi</destFileName>
+							<destFileName>jenkins-0.7.0-SNAPSHOT.hpi</destFileName>
 						</artifactItem>
 						
 						<artifactItem>
