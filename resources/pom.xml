@@ -35,7 +35,7 @@
 							<version>0.7.0-SNAPSHOT</version>
 							<type>zip</type>
 							<overWrite>true</overWrite>
-							<destFileName>p2-0.7.0-SNAPSHOT.zip</destFileName>
+							<destFileName>p2_0.7.0-SNAPSHOT.zip</destFileName>
 						</artifactItem>
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
@@ -43,7 +43,7 @@
 							<version>0.7.0-SNAPSHOT</version>
 							<type>hpi</type>
 							<overWrite>true</overWrite>
-							<destFileName>jenkins-0.7.0-SNAPSHOT.hpi</destFileName>
+							<destFileName>jenkins_0.7.0-SNAPSHOT.hpi</destFileName>
 						</artifactItem>
 						
 						<artifactItem>
@@ -63,6 +63,23 @@
 							<destFileName>jenkins.hpi</destFileName>
 						</artifactItem>
 						
+						<artifactItem>
+							<groupId>dev.galasa</groupId>
+							<artifactId>dev.galasa.eclipse.site</artifactId>
+							<version>0.6.0</version>
+							<type>zip</type>
+							<overWrite>true</overWrite>
+							<destFileName>p2_0.6.0.zip</destFileName>
+						</artifactItem>
+						<artifactItem>
+							<groupId>dev.galasa</groupId>
+							<artifactId>dev.galasa.jenkins</artifactId>
+							<version>0.6.0</version>
+							<type>hpi</type>
+							<overWrite>true</overWrite>
+							<destFileName>jenkins_0.6.0.hpi</destFileName>
+						</artifactItem>
+
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.eclipse.site</artifactId>
