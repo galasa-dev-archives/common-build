@@ -6,11 +6,11 @@
 	<parent>
 		<groupId>dev.galasa</groupId>
 		<artifactId>galasa-parent</artifactId>
-		<version>0.14.0-SNAPSHOT</version>
+		<version>0.15.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>dev.galasa.resources</artifactId>
-	<version>0.14.0-SNAPSHOT</version>
+	<version>0.15.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<build>
@@ -32,24 +32,24 @@
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.eclipse.site</artifactId>
-							<version>0.14.0-SNAPSHOT</version>
+							<version>0.15.0-SNAPSHOT</version>
 							<type>zip</type>
 							<overWrite>true</overWrite>
-							<destFileName>p2_0.14.0-SNAPSHOT.zip</destFileName>
+							<destFileName>p2_0.15.0-SNAPSHOT.zip</destFileName>
 						</artifactItem>
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.jenkins</artifactId>
-							<version>0.14.0-SNAPSHOT</version>
+							<version>0.15.0-SNAPSHOT</version>
 							<type>hpi</type>
 							<overWrite>true</overWrite>
-							<destFileName>jenkins_0.14.0-SNAPSHOT.hpi</destFileName>
+							<destFileName>jenkins_0.15.0-SNAPSHOT.hpi</destFileName>
 						</artifactItem>
 						
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.eclipse.site</artifactId>
-							<version>0.13.0</version>
+							<version>0.14.0</version>
 							<type>zip</type>
 							<overWrite>true</overWrite>
 							<destFileName>p2.zip</destFileName>
@@ -57,12 +57,29 @@
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.jenkins</artifactId>
-							<version>0.13.0</version>
+							<version>0.14.0</version>
 							<type>hpi</type>
 							<overWrite>true</overWrite>
 							<destFileName>jenkins.hpi</destFileName>
 						</artifactItem>
 						
+						<artifactItem>
+							<groupId>dev.galasa</groupId>
+							<artifactId>dev.galasa.eclipse.site</artifactId>
+							<version>0.14.0</version>
+							<type>zip</type>
+							<overWrite>true</overWrite>
+							<destFileName>p2_0.14.0.zip</destFileName>
+						</artifactItem>
+						<artifactItem>
+							<groupId>dev.galasa</groupId>
+							<artifactId>dev.galasa.jenkins</artifactId>
+							<version>0.14.0</version>
+							<type>hpi</type>
+							<overWrite>true</overWrite>
+							<destFileName>jenkins_0.14.0.hpi</destFileName>
+						</artifactItem>	
+											
 						<artifactItem>
 							<groupId>dev.galasa</groupId>
 							<artifactId>dev.galasa.eclipse.site</artifactId>
